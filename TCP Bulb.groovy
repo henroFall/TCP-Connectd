@@ -124,7 +124,7 @@ def setLevel(value) {
 	def level = value as Integer
 
 	sendEvent( name: "level", value: level )
-	sendEvent( name: "switch.setLevel", value:level )
+	sendEvent( name: "Switch Level", value:level )
 	parent.setLevel( this, level )
 
 
