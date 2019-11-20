@@ -1,4 +1,4 @@
-# TCP-Connectd
+# TCP-Connectd - (mod2019)
 SmartThings - TCP connected in local integration
 
 
@@ -9,7 +9,7 @@ You must have a TCP Gateway with version 2, sice Smartthings does not allow to s
 Its recommended your gateway have an stattic Ip address to avoid update the ip address in the connect app.
 
 
-
+I have made a slight modification to this code to fix an issue with setting any bulb to a % brightness. If only on/off work, try this code instead.
 
 
 
